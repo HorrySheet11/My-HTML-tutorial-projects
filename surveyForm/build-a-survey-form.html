@@ -1,0 +1,50 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HorrySheet's Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">HorrySheet's Survey Form</h1>
+    <p id="description">Thank you for using HSPlays, kindly leave with a feedback. Thank you.</p> 
+    <form id="survey-form">
+      <label for="name" id="name-label">Name:</label>
+      <input type="text" required id="name" placeholder="Enter name"><br>
+      <label for="email" id="email-label">Email: </label>
+      <input type="email" required id="email" placeholder="Enter email"><br>
+      <label for="number" id="number-label">Age(optional): </label>
+      <input type="number" id="number" col="3" min="18" max="100" placeholder="18"> <br><br>
+
+      <legend for="dropdown">Choose your current role:</legend>
+      <select id="dropdown">
+        <option>Gamer</option>
+        <option>Spectator</option>
+        <option>Host</option>
+      </select><br><br>
+      <legend>Would you recommend HSPlays to others?</legend>
+      <label for="yes">Yes</label>
+      <input type="radio" id="yes" name="recommend" value="yes">
+      <label for="no">No</label>
+      <input type="radio" id="no" name="recommend" value="no">
+      <label for="maybe">Maybe</label>
+      <input type="radio" id="maybe" name="recommend" value="maybe">
+      <br><br>
+      <legend>In what aspects can the event be improved?</legend>
+      <label for="ads">Option A</label>
+      <input type="checkbox" id="a" name="a" value="a"/>
+      <label for="ads">Option B</label>
+      <input type="checkbox" id="b" name="b" value="b"/>
+      <label for="ads">Option C</label>
+      <input type="checkbox" id="c" name="c" value="c"/>
+      <br><br>
+      <label  for="comment">Comments or suggestions?</label><br>
+      <textarea id="comment" name="comment">Enter comment here</textarea><br>
+    <button type="submit" id="submit">Submit</button>
+    </form>
+    
+    
+  </body>
+</html>
+
